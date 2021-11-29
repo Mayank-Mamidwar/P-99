@@ -11,8 +11,8 @@ if os.path.exists(path+'/'+ext):
         os.walk(path)
         #This will go through each and every fille
         for file in list_of_files:
-        name, ext = os.path.splitext(file)
-        os.path.join()
+                name, ext = os.path.splitext(file)
+                os.path.join()
 
         #This is going to store extension type
         ext = ext[1:]
@@ -20,7 +20,6 @@ if os.path.exists(path+'/'+ext):
              os.remove(path)
 
         else:
-          
             print("Not found")
             break
 
